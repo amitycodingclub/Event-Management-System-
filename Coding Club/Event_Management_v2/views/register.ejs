@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	  <title>Sign-in </title>
+	  <link rel="stylesheet" type="text/css" href="css/register.css">
+
+	  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body>
+    	<form action="/register" method="post">
+    		<div id="container">
+    			<h1>Sign-in <i class="fa fa-user-plus" aria-hidden="true"></i></h1>
+    			<ul>
+		           <li>
+		               <div>
+	                     <label for="email"> Email:</label>
+	                     <input id="email" type="email"  name="username" required>
+	                   </div> 
+	                </li>
+	                <li>
+	                	<div>
+	                  	 <label for="password"> Password:</label>
+	                     <input id="password" type="password"  name="password" pattern=".{2,3}" required title="password must be only 2 to 3 character">
+	                   </div>
+	                </li>
+	                 <li>
+	                	<button type="submit">Register</button>
+	                </li>    
+	           </ul>
+    		</div>
+    	</form>
+    </body>
+    <footer>
+	Copyright 2019 SHENRON
+</footer>
+</html>
